@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Sep  8 14:22:43 2019
+# Process ID: 16424
+# Current directory: c:/HDL_projects_git/bram_update
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vivado/2018.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./bram_update.runs/impl_1/design_1_wrapper.mmi -data ./update.mem -proc design_1_i/processing_system7_0 -bit ./bram_update.runs/impl_1/design_1_wrapper.bit -out ./updated.bit -force -debug
+# Log file: c:/HDL_projects_git/bram_update/updatemem.log
+# Journal file: c:/HDL_projects_git/bram_update\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Vivado/2018.3/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo ./bram_update.runs/impl_1/design_1_wrapper.mmi -data ./update.mem -proc design_1_i/processing_system7_0 -bit ./bram_update.runs/impl_1/design_1_wrapper.bit -out ./updated.bit -force -debug
+Loading bitfile ./bram_update.runs/impl_1/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream ./updated.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 527.059 ; gain = 440.930
+INFO: [Common 17-206] Exiting updatemem at Sun Sep  8 14:22:58 2019...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Sep  8 13:17:37 2019
+# Process ID: 15776
+# Current directory: C:/HDL_projects_git/bram_update
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vivado/2018.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./bram_update.runs/impl_1/design_1_wrapper.mmi -data ./update.mem -proc design_1_i/processing_system7_0 -bit ./bram_update.runs/impl_1/design_1_wrapper.bit -out ./updated.bit -force -debug
+# Log file: C:/HDL_projects_git/bram_update/updatemem.log
+# Journal file: C:/HDL_projects_git/bram_update\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Vivado/2018.3/scripts/updatemem/main.tcl -notrace
